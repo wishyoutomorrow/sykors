@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Rubik';
+    src:  url("/assets/fonts/Rubik-Regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src:  url("/assets/fonts/Rubik-Bold.ttf");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src:  url("/assets/fonts/Rubik-Medium.ttf");
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rubik';
+    src:  url("/assets/fonts/Rubik-Light.ttf");
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Times New Roman';
+    src:  url("/assets/fonts/times-regular.ttf");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Times New Roman';
+    src:  url("/assets/fonts/times-bold.ttf");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Arial';
+    src:  url("/assets/fonts/arial-bold.ttf");
+    font-weight: 700;
+    font-style: normal;
+}

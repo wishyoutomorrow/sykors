@@ -1,0 +1,54 @@
+.hero {
+    padding: 0;
+}
+.hero__container {
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    min-height: calc(100vh - 100px);
+}
+
+.hero__content {
+    max-width: 551px;
+    flex: 0 0 551px;
+
+    h1{
+        color: var(--dark-color);
+        font-family: var(--main-font), serif;
+        font-size: 5.8rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 107.586%;
+
+        span {
+            color: var(--green-color);
+        }
+    }
+}
+
+.hero__img {
+    flex: 0 1 auto;
+}
+
+.hero__skills {
+    display: flex;
+    flex-direction: column;
+    gap: 21px;
+    margin-top: 90px;
+}
+
+.hero__skill {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+
+    background: linear-gradient(270deg, #31A28B 0.1%, #0C0C0E 140.94%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: var(--helvetica-font), serif;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27.2px;
+}

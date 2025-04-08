@@ -1,0 +1,181 @@
+.services-cards {
+    /*display: grid;*/
+    /*grid-template-columns: repeat(4, 1fr);*/
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    margin-top: 60px;
+    align-items: flex-start;
+}
+
+.services-card {
+    border-radius: 20px;
+    border-right: 1px solid #31A28B;
+    border-bottom: 1px solid #31A28B;
+    border-left: 1px solid #31A28B;
+    background: #FFF;
+    flex: 0 1 323px;
+}
+
+.services-card__header {
+    border-radius: 20px 20px 0px 0px;
+    background: #1A281F;
+    padding: 16px;
+    text-align: center;
+    color: #FFF;
+    font-family: var(--helvetica-font),serif;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 131.25%;
+    letter-spacing: 0.525px;
+    text-transform: uppercase;
+}
+
+.services-card__body {
+    padding: 30px;
+}
+
+.services-card__content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    h3{
+        color: #1A1A1A;
+        text-align: center;
+        font-family: var(--helvetica-font), serif;
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 78%;
+    }
+
+    p {
+        color: #4D4D4D;
+        text-align: center;
+        font-family: var(--main-font), var(--helvetica-font), serif;
+        font-size: 1.6rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 112.5%;
+    }
+
+    .services-card__price {
+        color: #2E8C79;
+        font-family: var(--helvetica-font), serif;
+        font-size: 5rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 90%;
+    }
+
+    .services-card__btn{
+        padding: 14px;
+        width: 100%;
+    }
+}
+
+
+.services-card__info {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.services-card__info-item {
+    border-bottom: 1.616px solid #31A28B;
+    padding: 8px 0;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+
+    color: #04372B;
+    font-family: var(--helvetica-font), serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+
+.services-card_special {
+    background: #04372B;
+    box-shadow: 4px 4px 100px 0px rgba(0, 0, 0, 0.25);
+    position: relative;
+    z-index: -2;
+    flex: 0 0 350px;
+    /*transform: scale(1.05);*/
+    /*transform-origin: top;*/
+    .services-card__header {
+        border-radius: 0;
+        background: none;
+        text-align: center;
+        color: #04372B;
+        font-size: 1.8rem;
+        position: relative;
+        z-index: 2;
+        font-weight: 700;
+        transform: translateY(-23%);
+        svg {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            width: 90%;
+            z-index: -1;
+        }
+    }
+
+    .services-card__content {
+
+        h3 {
+            color: #FFF;
+            font-size: 3.4rem;
+            font-weight: 700;
+            line-height: 74.131%;
+        }
+
+        p {
+            color: #FFF;
+            font-size: 1.4rem;
+            font-weight: 400;
+            line-height: 138.486%;
+        }
+
+        .services-card__price {
+            font-size: 6rem;
+            font-weight: 700;
+            line-height: 80.784%;
+            background: linear-gradient(90deg, #FFF9C4 -5.29%, #FFE862 2.11%, rgba(255, 199, 69, 0.92) 21.99%, #FEBA1A 39.6%, #FEBA1A 62.9%, #FFC745 80.91%, #FFE862 97.97%, #FFF9C4 105.6%);
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    }
+
+    .services-card__info-item {
+        color: #FFF;
+        font-size: 1.6rem;
+        font-weight: 400;
+        line-height: 140%;
+        svg {
+            color: #FBB52A;
+        }
+    }
+
+    .services-card__btn {
+        width: 85%;
+        margin: 0 auto;
+        margin-top: 48px;
+
+        color: #04372B;
+        font-size: 1.8rem;
+        font-weight: 700;
+        line-height: 133.333%;
+
+        background: linear-gradient(90deg, #FFF9C4 -5.29%, #FFE862 2.11%, rgba(255, 199, 69, 0.92) 21.99%, #FEBA1A 39.6%, #FEBA1A 62.9%, #FFC745 80.91%, #FFE862 97.97%, #FFF9C4 105.6%)
+    }
+}
